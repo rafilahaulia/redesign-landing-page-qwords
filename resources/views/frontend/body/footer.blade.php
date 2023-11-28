@@ -284,7 +284,7 @@
         </div>
         <hr />
         <div class="text-center pb-3">
-            <p class="mb-0 text-center" style="font-size: 12px">Copyright © <span id="yearFooter"></span> PT Qwords Company International. Redesign Rafilah Aulia</p>
+            <p class="mb-0 text-center" style="font-size: 12px">Copyright © <span id="yearFooter"></span> PT Qwords Company International. Redesign by Rafilah Aulia</p>
         </div>
     </div>
 </footer>

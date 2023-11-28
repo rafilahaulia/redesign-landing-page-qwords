@@ -629,12 +629,12 @@
     <div class="container-md">
         <div class="bg-banner">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <div class="banner-img">
                         <img src="https://qwords.com/v2/wp-content/themes/qwords/assets/images/illustrations/bw.webp" alt="" />
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <div class="banner-text">
                         <h1 class="fw-semibold mb-3"><span>Bikin website impian</span> dengan mudah disini hanya 1jutaan</h1>
                         <p class="mb-4">Bikin website impian include paket hosting Indonesia terbaik hanya 1 jutaan Jasa pembuatan website profesional untuk Perusahaan, Bisnis & UKM. Bikin Website Impian dengan mudah di sini, desain website elegan dan mudah dikelola</p>
@@ -715,13 +715,13 @@
 <div class="banner-garansi mt-5 py-4">
     <div class="container-md">
         <div class="h-100 row align-items-center justify-content-center">
-            <div class="col-12 col-sm-12 col-lg-6 col-xxl-5 mb-3 mb-lg-0">
+            <div class="col-12 col-sm-12 col-lg-6 col-xxl-5 mb-3 mb-lg-0" data-aos="fade-left">
                 <!-- <div class="banner-img">
                     <img src="https://qwords.com/v2/wp-content/themes/qwords/assets/images/illustrations/guarantee.webp" alt="" />
                 </div> -->
                 <img src="https://qwords.com/v2/wp-content/themes/qwords/assets/images/illustrations/guarantee.webp" width="100%" alt="" />
             </div>
-            <div class="col-12 col-sm-12 col-lg-6 col-xxl-5 text-center text-lg-start">
+            <div class="col-12 col-sm-12 col-lg-6 col-xxl-5 text-center text-lg-start" data-aos="fade-right">
                 <div class="banner-text">
                     <h1 class="fw-bold mb-3">Garansi 30 Hari <span>Uang Kembali</span></h1>
                     <p>Untuk menjaga kepuasan pelanggan, kami memberikan garansi uang kembali yang berlaku hingga 30 hari setelah hosting aktif.</p>

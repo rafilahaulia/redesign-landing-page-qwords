@@ -6,7 +6,7 @@
         </div>
         <div class="nav-links">
             <div class="sidebar-logo">
-                <span class="logo-name">Qwords</span>
+                <span class="logo-name fw-bold">Qwords</span>
                 <i class="bx bx-x"></i>
             </div>
             <ul class="links ps-0">
@@ -70,7 +70,7 @@
             </ul>
         </div>
         <div class="nav-icon">
-            <a href="cart.html" class="btn-login">Login</a>
+            <a href="cart.html" class="btn-login">Masuk</a>
         </div>
     </div>
 </nav>

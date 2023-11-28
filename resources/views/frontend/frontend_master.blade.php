@@ -6,7 +6,7 @@
         <link rel="icon" type="image/png" href="{{ asset('frontend') }}/assets/img/logo-qwords-tb.png" />
         <!-- CSS LINK -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}" />
-        <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom.css') }}" />
+        <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom.css?v=2') }}" />
         <!-- BOOTSTRAP LINK -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
         <!-- BOX ICON LINK -->
