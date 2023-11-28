@@ -1,0 +1,934 @@
+/* Googlefont Poppins CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap");
+.header {
+    background: rgb(248, 201, 174);
+    background: linear-gradient(0deg, rgba(248, 201, 174, 1) 0%, rgba(255, 255, 255, 1) 50%);
+    margin: 100px 0 0 0;
+    overflow: hidden;
+}
+.header .header-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.header .header-text h1 {
+    font-weight: 800;
+    font-size: 2.8rem !important;
+}
+.header .header-text span {
+    color: #ff6d0b;
+    font-size: 2.5rem;
+}
+.header .header-text .header-tag {
+    color: #ff6d0b;
+    font-size: 25px;
+    font-weight: 700;
+}
+.header-img img {
+    width: 100%;
+}
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.8rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+.button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    transform: translateY(0);
+}
+.disc-section {
+    background: rgb(255, 109, 11);
+    background: linear-gradient(0deg, rgba(255, 109, 11, 1) 0%, rgba(248, 201, 174, 1) 100%);
+    padding: 15px 0;
+}
+.disc-wrap {
+    background: white;
+    border-radius: 25px;
+    padding: 25px 0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.disc-text {
+    text-align: center;
+}
+.btn-cek {
+    text-align: center;
+}
+.btn-cek a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    background: #ff6d0b;
+    background-image: url("	https://qwords.com/v2/wp-content/themes/qwords/assets/images/shapes/search-domain-bg.png");
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+.countdown-3 {
+    --colour-days: calc(var(--countdown-percent-days) * 255);
+    --colour-hours: calc(var(--countdown-percent-hours) * 255);
+    --colour-minutes: calc(var(--countdown-percent-minutes) * 255);
+    --colour-seconds: calc(var(--countdown-percent-seconds) * 255);
+    --colour: calc(var(--countdown-percent) * 255);
+    --length: calc(var(--countdown-percent) * 100%);
+    display: flex;
+    padding: 0;
+    margin: 15px 0;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-family: "Brandon Grotesque", Arial;
+}
+.countdown-3 .days,
+.countdown-3 .hours,
+.countdown-3 .minutes,
+.countdown-3 .seconds {
+    margin: 6px;
+}
+.countdown-3 .amount {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height: 52px;
+    font-size: 32px;
+    font-family: Belwe, "Times New Roman";
+    line-height: 0.8em;
+}
+.countdown-3 .amount::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -1px;
+    border-top: solid 1px rgba(200, 200, 200, 0.5);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.countdown-3 .digit,
+.countdown-3 .digit[data-countdown-next-digit]::after {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    margin: 1px;
+    background: #051c2c;
+    border-radius: 5px;
+    color: #eee;
+    text-align: center;
+    overflow: hidden;
+}
+.countdown-3 .digit[data-countdown-next-digit]::after {
+    display: none;
+    content: attr(data-countdown-next-digit);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.countdown-3 .label {
+    display: block;
+    padding-top: 2px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.search-domain-section {
+    background: #ff6d0b;
+    text-align: center;
+    color: #ffffff;
+    background-image: url("	https://qwords.com/v2/wp-content/themes/qwords/assets/images/shapes/search-domain-bg.png");
+}
+.wrap-search {
+    padding: 0 7em;
+}
+.title h1 {
+    font-weight: 700;
+}
+.title p {
+    width: 70%;
+    margin: 0 auto;
+}
+input::placeholder {
+    font-size: 1rem;
+}
+.btn-search {
+    background: black;
+    padding: 12px 0;
+    border-radius: 25px;
+}
+.btn-search a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.vr {
+    display: inline-block;
+    align-self: stretch;
+    width: 1px;
+    min-height: 1em;
+    background-color: currentcolor;
+    opacity: 0.25;
+}
+.title h1 span {
+    color: #ff6d0b;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    border-radius: 25px !important;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.card-heading h3 {
+    background: #fb8332;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #ffffff;
+}
+.card-heading p {
+    font-size: 15px;
+}
+.card-description p {
+    font-size: 15px;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+}
+.card-price p {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ff6d0b;
+}
+.card-price h2 {
+    color: #ff6d0b;
+    font-weight: 800;
+}
+.card-price h2 span {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+.card-btn {
+    background: #ff6d0b;
+    padding: 10px 0;
+    border-radius: 25px;
+    text-align: center;
+}
+.card-btn a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.layanan-lain {
+    background: #fff8f3;
+}
+.app-slider {
+    position: relative;
+    width: 100%;
+}
+.app-slider--card {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    border-radius: 25px !important;
+    outline: none;
+    background: white;
+    position: relative;
+    display: block;
+    margin: 5px;
+    transition: all 0.25s ease-in-out;
+}
+.komit-content {
+    height: 165px;
+    max-height: 140px;
+}
+.komit-qwords {
+    overflow: hidden;
+}
+.bg-banner {
+    background: #feecdd;
+    border-radius: 25px;
+    padding: 1rem 3rem 0 3rem;
+}
+.banner-img {
+    padding: 35px;
+}
+.banner-img img {
+    width: 100%;
+}
+.banner-text h1 span {
+    color: #ff6d0b;
+}
+.banner-btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.list-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-img img {
+    max-width: 200px;
+}
+.list-btn a {
+    text-decoration: none;
+    color: #ff6d0b;
+    font-weight: 700;
+}
+.list-btn i {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #ff6d0b;
+}
+.logo-slide {
+    text-align: center;
+}
+.logo-slide img {
+    width: 72%;
+    margin: auto;
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: 0.25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+}
+.slick-prev:before {
+    content: "←";
+}
+.slick-next {
+    right: -25px;
+}
+.slick-next:before {
+    content: "→";
+}
+
+/* Slider */
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: "";
+}
+.slick-track:after {
+    clear: both;
+}
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+.slick-slide img {
+    display: block;
+}
+.slick-slide.slick-loading img {
+    display: none;
+}
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.banner-garansi {
+    background: #feecdd;
+}
+.blog-card {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    z-index: 0;
+}
+.inner-part {
+    position: absolute;
+}
+#imgTap:checked ~ .inner-part {
+    padding: 0;
+    transition: 0.1s ease-in;
+}
+.inner-part .img {
+    flex-shrink: 0;
+    overflow: hidden;
+}
+#imgTap:checked ~ .inner-part .img {
+    margin-top: 10px;
+    transition: 0.3s 0.2s ease-in;
+}
+.img img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.6s;
+}
+#tap-1:checked ~ .inner-part .img-1,
+#tap-2:checked ~ .inner-part .img-2,
+#tap-3:checked ~ .inner-part .img-3 {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+.content {
+    /* padding: 0 20px 0 35px; */
+    /* width: 530px; */
+    opacity: 0;
+    transition: 0.6s;
+}
+#imgTap:checked ~ .inner-part .content {
+    display: none;
+}
+#tap-1:checked ~ .inner-part .content-1,
+#tap-2:checked ~ .inner-part .content-2,
+#tap-3:checked ~ .inner-part .content-3 {
+    opacity: 1;
+    margin-left: 0px;
+    z-index: 100;
+    transition-delay: 0.3s;
+}
+.content span {
+    display: block;
+    color: #7b7992;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.content .title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0d0925;
+    margin-bottom: 20px;
+}
+.content .text {
+    color: #4e4a67;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.content button {
+    display: inline-flex;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff0e6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #fd3535;
+    background: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+}
+.content button:hover {
+    background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%);
+}
+.sliders {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 12;
+}
+#imgTap:checked ~ .sliders {
+    display: none;
+}
+.sliders .tap {
+    position: relative;
+    height: 10px;
+    width: 50px;
+    background: #d9d9d9;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.sliders .tap:hover {
+    background: #cccccc;
+}
+.sliders .tap:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: -100%;
+    background: linear-gradient(147deg, #f6b323 0%, #f23b26 74%);
+    border-radius: 10px;
+    transform: scaleX(0);
+    transition: transform 0.6s;
+    transform-origin: left;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+#tap-1:checked ~ .sliders .tap-1:before,
+#tap-2:checked ~ .sliders .tap-2:before,
+#tap-3:checked ~ .sliders .tap-3:before {
+    transform: scaleX(1);
+    width: 100%;
+}
+.testimonial .header-quote {
+    position: relative;
+}
+.testimonial .header-quote::before {
+    content: url(https://qwords.com/v2/wp-content/themes/qwords/assets/images/shapes/cite.png);
+    position: absolute;
+    top: -5px;
+    transform: scale(0.5) translate(0);
+}
+.testimonial .header-quote h5 {
+    line-height: 1.8rem;
+    margin-left: 3rem;
+}
+.testimonial .quote-details {
+    border-left: 5px solid #ff6d0b;
+    padding-left: 1em;
+    margin-left: 3rem;
+    color: #a0a0a0;
+    text-decoration-style: dashed;
+    font-style: italic !important;
+}
+.faq {
+    padding: 20px;
+    width: 60%;
+    min-width: 450px;
+    margin: auto;
+    position: relative;
+    height: auto;
+}
+.faq-container {
+    width: 100%;
+    height: 100%;
+}
+.faq-label {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background: #fff;
+}
+.faq-label-text {
+    color: #365a5e;
+}
+.faq-label-icon {
+    padding: 2px 3px;
+    background: #feecdd;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.material-icons {
+    color: #365a5e;
+    transition: 0.3s ease;
+}
+.faq-answer {
+    transition: 0.3s ease;
+    height: 0;
+    border-radius: 6px;
+    color: rgba(127, 121, 121, 1);
+    overflow: hidden;
+}
+.faq-answer-content {
+    padding: 10px 15px 25px 15px;
+}
+.faq-bg {
+    border-radius: 1rem;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.active {
+    height: auto;
+    margin-bottom: 25px;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.global-label {
+    color: #365a5e;
+    width: 100%;
+    height: 35px;
+    border-bottom: solid 2px #c4c1c1;
+    margin-bottom: 35px;
+}
+.global-label-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #365a5e;
+}
+.score {
+    display: none;
+    color: #00ff2a;
+    padding: 15px;
+    width: 45px;
+    height: 25px;
+    margin: 45px auto;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: white;
+}
+.pelanggan-aktif {
+    overflow: hidden;
+}
+.butuh-bantuan {
+    background-color: #feecdd;
+    background-image: url(https://qwords.com/v2/wp-content/themes/qwords/assets/images/shapes/bantuan.png);
+    background-size: cover;
+    min-height: 195px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.butuh-bantuan a {
+    text-decoration: none;
+}
+.contact-info a {
+    border: 1px solid #ff6d0b;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #fa6400;
+}
+.contact-info a:hover {
+    border: 1px solid #ff6d0b;
+    background: #fa6400;
+    color: #ffffff;
+}
+.butuh-bantuan a .a-content i {
+    font-size: 25px;
+    margin-right: 7px;
+}
+footer {
+    background: black;
+    color: white;
+}
+footer h4 {
+    margin-bottom: -65px;
+}
+.logo-desc img.img-2 {
+    width: 100%;
+    max-width: 65%;
+}
+.logo-desc img.img-3 {
+    width: 100%;
+    max-width: 50%;
+}
+.logo-desc h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+ul.list-unstyled {
+    line-height: 30px;
+}
+ul.list-unstyled li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ul.list-unstyled li a:hover {
+    color: #feecdd;
+}
+#resellerservice {
+    margin-top: -35px;
+}
+#free-tool {
+    margin-top: -95px;
+}
+.socmed-footer {
+    margin-top: -60px;
+}
+.relations-wrap {
+    background-color: #feecdd;
+    background-image: url(https://qwords.com/v2/wp-content/themes/qwords/assets/images/shapes/bantuan.png);
+    padding: 20px 15px;
+    border-radius: 25px;
+}
+.relations-content {
+    text-align: center;
+}
+.relations-content i {
+    font-size: 50px;
+}
+.relations-content h1 {
+    font-weight: bold;
+}
+#solusi .card-solusi {
+    height: 223px;
+    background: #fa6400;
+    color: #fff;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+#solusi .card-solusi img {
+    position: absolute !important;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#solusi .card-solusi .card-text p {
+    width: 60%;
+    line-height: 1.3em;
+    font-weight: 300;
+    font-size: clamp(14px, 1vw, 1.2rem);
+}
+.btn-viewmore {
+    background: black;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+}
+/* Style for the customer service icon */
+.customer-service-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it's above other content */
+    cursor: pointer;
+}
+.customer-service-icon img {
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #fa6400;
+    padding: 5px;
+}
+
+/* Style for the chat room (initially hidden) */
+.chat-room {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    z-index: 999;
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 25px 8px;
+}
+.chat-room textarea {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    background: #f4f4f4;
+    padding: 10px;
+    height: 45px;
+}
+.chat-header {
+    background-image: linear-gradient(250.13deg, rgb(50, 54, 69) 32.02%, rgb(50, 54, 69) 61.16%, rgba(50, 54, 69, 0.85) 80.86%, rgba(50, 54, 69, 0.718) 107.45%, rgba(50, 54, 69, 0) 124.89%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chat-header h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.chat-header button i {
+    font-size: 30px;
+    color: #ffffff;
+}
+/* Style untuk tombol scroll to top (awalnya tersembunyi) */
+#scrollToTopButton {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    display: none;
+    color: black;
+    font-size: 25px;
+}
+/* Style untuk kontainer chat bubble */
+.chat-bubble-container {
+    display: flex;
+    flex-direction: column;
+    /* Style lainnya */
+}
+
+/* Style untuk bubble chat */
+.chat-bubble {
+    max-width: 70%;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dcf8c6; /* Warna latar belakang */
+    /* Style lainnya */
+}
+
+/* Style untuk bubble chat dari pengguna */
+.chat-bubble.user {
+    align-self: flex-end;
+    background-color: #cde7fc; /* Warna latar belakang */
+    /* Style lainnya */
+}
