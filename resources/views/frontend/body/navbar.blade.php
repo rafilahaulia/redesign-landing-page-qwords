@@ -29,7 +29,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="product.html">Domain</a>
+                    <a href="#">Domain</a>
                     <i class="bx bx-chevron-down htmlcss-arrow arrow"></i>
                     <ul class="htmlCss-sub-menu sub-menu ps-0">
                         <li><a href="#">Product 1</a></li>
@@ -70,7 +70,7 @@
             </ul>
         </div>
         <div class="nav-icon">
-            <a href="cart.html" class="btn-login">Masuk</a>
+            <a href="#" class="btn-login">Masuk</a>
         </div>
     </div>
 </nav>
