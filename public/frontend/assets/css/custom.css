@@ -860,12 +860,11 @@ ul.list-unstyled li a:hover {
     margin-top: 20px;
     display: none;
 }
-/* Style for the customer service icon */
 .customer-service-icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 1000; /* Ensure it's above other content */
+    z-index: 1000;
     cursor: pointer;
 }
 .customer-service-icon img {
@@ -875,8 +874,6 @@ ul.list-unstyled li a:hover {
     border: 1px solid #fa6400;
     padding: 5px;
 }
-
-/* Style for the chat room (initially hidden) */
 .chat-room {
     position: fixed;
     bottom: 35px;
@@ -921,7 +918,6 @@ ul.list-unstyled li a:hover {
     font-size: 30px;
     color: #ffffff;
 }
-/* Style untuk tombol scroll to top (awalnya tersembunyi) */
 #scrollToTopButton {
     position: fixed;
     bottom: 70px;
@@ -930,26 +926,21 @@ ul.list-unstyled li a:hover {
     color: black;
     font-size: 25px;
 }
-/* Style untuk kontainer chat bubble */
 .chat-bubble-container {
     display: flex;
     flex-direction: column;
-    /* Style lainnya */
 }
-
-/* Style untuk bubble chat */
 .chat-bubble {
     max-width: 70%;
     margin: 8px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #dcf8c6; /* Warna latar belakang */
-    /* Style lainnya */
+    background-color: #dcf8c6;
 }
-
-/* Style untuk bubble chat dari pengguna */
 .chat-bubble.user {
     align-self: flex-end;
-    background-color: #cde7fc; /* Warna latar belakang */
-    /* Style lainnya */
+    background-color: #cde7fc;
+}
+.h5home {
+    font-size: 1.3rem;
 }
